@@ -1,0 +1,39 @@
+body {
+    font-family: "Roboto", sans-serif;
+    color: #2e2f42;
+    background-color: #fff;
+    line-height: 1.5;
+    width: 1440;
+    height: 3300;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.head-main {
+    background-color: #2e2f42;
+    width: 1440;
+    height: 600;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07143;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #fff;
+    width: 120;
+    height: 496;
+}
+
+button {
+    border-radius: 4px;
+    padding: 16px 32px;
+    width: 169px;
+    height: 56px;
+    color: #fff;
+    background-color: #4d5ae5;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+}
