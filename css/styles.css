@@ -1,39 +1,96 @@
 body {
     font-family: "Roboto", sans-serif;
-    color: #2e2f42;
+    color: #434455;
     background-color: #fff;
-    line-height: 1.5;
-    width: 1440;
-    height: 3300;
+    font-size: 16px;
+    letter-spacing: 0.02em;
 }
-
 ul {
     list-style-type: none;
 }
-
-.head-main {
-    background-color: #2e2f42;
-    width: 1440;
-    height: 600;
+a{
+    color: currentColor;
+    text-decoration: none;
+}
+h2,h3{
+    color: #2e2f42;
+}
+.page-main, .page-footer{
+    background-color: #2e2f42;;
+}
+.logo-header, .logo-heder-span, .page-footer-logo,
+.logo-heder-span{
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+.logo-heder-span{
+    color: #2e2f42;
+}
+.page-heder-list{
+    font-weight: 500;
+    line-height: 1.5;
+    color: #2e2f42;
+}
+.page-header-address{
+    font-weight: 400;
+    line-height: 1.5;
 }
 
-h1 {
+.page-main{
+    color: #fff;
+}
+.page-main-title{
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.07143;
-    letter-spacing: 0.02em;
+    line-height: 1.07;
     text-align: center;
-    color: #fff;
-    width: 120;
-    height: 496;
+}
+.page-main-button{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    background: #4d5ae5;
+}
+.benefits-list, .portfolio-list{
+    text-align: left;
+}
+.benefits-list-item-title, .portfolio-list-item-title{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+}
+.benefits-list-item-text, .team-list-item-text,
+.portfolio-list-item-text, .page-footer-text{
+    font-weight: 400;
+    line-height: 1.5; 
+}
+.team-title, .portfolio-title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1;
+    text-transform: capitalize;
+    text-align: center;
+}
+.team-list-item-text, .team-list-item-title{
+  text-align: center;  
+}
+.logo-heder-span, .page-footer-text{
+    color: #f4f4fd;
 }
 
-button {
-    border-radius: 4px;
-    padding: 16px 32px;
-    width: 169px;
-    height: 56px;
-    color: #fff;
-    background-color: #4d5ae5;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-}
+
+
+
+
+
+
+
+
+
+
