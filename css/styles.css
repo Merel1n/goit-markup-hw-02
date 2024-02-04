@@ -39,8 +39,16 @@ h2,h3{
     line-height: 1.5;
     color: #2e2f42;
 }
-.page-header-list-item:hover .page-header-list-item:focus
-.page-header-address-item:hover .page-header-address-item:focus{
+.page-header-list-item:hover{
+    color: #404bbf;
+} 
+.page-header-list-item:focus{
+    color: #404bbf;
+}
+.page-header-address-item:hover{
+    color: #404bbf;
+} 
+.page-header-address-item:focus{
    color: #404bbf;
 }
 .page-header-address{
