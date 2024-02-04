@@ -42,6 +42,9 @@ h2,h3{
 .page-header-list-item:hover{
     color: #404bbf;
 } 
+.page-header-list-link, .page-header-address-link{
+    color: #2e2f42;
+}
 .page-header-list-link:focus{
     color: #404bbf;
 }
