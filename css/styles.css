@@ -42,13 +42,13 @@ h2,h3{
 .page-header-list-item:hover{
     color: #404bbf;
 } 
-.page-header-list-item:focus{
+.page-header-list-link:focus{
     color: #404bbf;
 }
 .page-header-address-item:hover{
     color: #404bbf;
 } 
-.page-header-address-item:focus{
+.page-header-address-link:focus{
     color: #404bbf;
 }
 .page-header-address{
