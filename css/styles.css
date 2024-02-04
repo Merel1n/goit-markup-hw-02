@@ -4,6 +4,7 @@ body {
     background-color: #fff;
     font-size: 16px;
     letter-spacing: 0.02em;
+    font-style: normal
 }
 ul {
     list-style-type: none;
@@ -11,6 +12,7 @@ ul {
 a{
     color: currentColor;
     text-decoration: none;
+    cursor: pointer;
 }
 h2,h3{
     color: #2e2f42;
@@ -56,6 +58,7 @@ h2,h3{
     line-height: 1.5;
     letter-spacing: 0.04em;
     background: #4d5ae5;
+    cursor: pointer;
 }
 .benefits-list, .portfolio-list{
     text-align: left;
