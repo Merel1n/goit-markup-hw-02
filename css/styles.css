@@ -9,20 +9,22 @@ body {
 ul {
     list-style-type: none;
 }
-a{
+a {
     color: currentColor;
     text-decoration: none;
     cursor: pointer;
 }
-h2,h3{
+h2,h3 {
     color: #2e2f42;
     letter-spacing: 0.02em
-}
-.page-main, .page-footer{
+} 
+.page-main, .page-footer {
     background-color: #2e2f42;;
 }
-.logo-header, .logo-heder-span, .page-footer-logo,
-.logo-footer-span{
+.logo-header,
+.logo-heder-span,
+.page-footer-logo,
+.logo-footer-span {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -31,46 +33,49 @@ h2,h3{
     text-transform: uppercase;
     color: #4d5ae5;
 }
-.logo-heder-span{
+.logo-heder-span {
     color: #2e2f42;
 }
-.page-heder-list{
+
+.page-header-list-item {
     font-weight: 500;
     line-height: 1.5;
     color: #2e2f42;
 }
-.page-header-list-item:hover{
+
+.page-header-list-item:hover,
+.page-header-list-link:focus {
     color: #404bbf;
 } 
-.page-header-list-link, .page-header-address-link{
+.page-header-list-link, 
+.page-header-address-link{
     color: #2e2f42;
 }
-.page-header-list-link:focus{
-    color: #404bbf;
-}
-.page-header-address-item:hover{
-    color: #404bbf;
-} 
-.page-header-address-link:focus{
-    color: #404bbf;
-}
-.page-header-address{
+
+.page-header-address {
     font-weight: 400;
     line-height: 1.5;
     font-style: normal;
+    color: #434455;
 }
 
-.page-main, .page-main-button{
+.page-header-address-item:hover,
+.page-header-address-link:focus {
+    color: #404bbf;
+} 
+
+.page-main, 
+.page-main-button {
     color: #fff;
 }
-.page-main-title{
+.page-main-title {
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
 }
-.page-main-button{
+.page-main-button {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -79,40 +84,49 @@ h2,h3{
     background: #4d5ae5;
     cursor: pointer;
 }
-.page-main-button:hover, .page-main-button:focus{
+.page-main-button:hover, 
+.page-main-button:focus {
     background-color: #404BBF
 }
-.benefits-list, .portfolio-list{
+.benefits-list, 
+.portfolio-list {
     text-align: left;
 }
-.benefits-list-item-title, .team-list-item-title, .portfolio-list-item-title{
+.benefits-list-item-title, 
+.team-list-item-title, 
+.portfolio-list-item-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em
 }
-.benefits-list-item-text, .team-list-item-text,
-.portfolio-list-item-text, .page-footer-text{
+.benefits-list-item-text, 
+.team-list-item-text,
+.portfolio-list-item-text, 
+.page-footer-text {
     font-weight: 400;
     line-height: 1.5; 
 }
-.team{
+.team {
     background: #f4f4fd;
 }
-.team-list-item{
+.team-list-item {
     background-color: #FFFFFF
 }
-.team-title, .portfolio-title{
+.team-title, 
+.portfolio-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     text-transform: capitalize;
     text-align: center;
 }
-.team-list-item-text, .team-list-item-title{
+.team-list-item-text, 
+.team-list-item-title {
   text-align: center;  
 }
-.logo-footer-span, .page-footer-text{
+.logo-footer-span, 
+.page-footer-text {
     color: #f4f4fd;
 }
 
