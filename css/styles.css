@@ -50,7 +50,10 @@ h2,h3 {
     color: #434455;
 }
 .page-header-list-item:hover,
-.page-header-list-item:focus,
+.page-header-list-item:focus {
+    background-color: #404bbf;
+}
+
 .page-header-address-item:hover,
 .page-header-address-item:focus {
     color: #404bbf;
